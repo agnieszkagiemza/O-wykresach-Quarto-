@@ -1,0 +1,467 @@
+---
+title: "Sztuka tworzenia atrakcyjnych wizualizacji"
+format: revealjs
+fontsize: 20px
+editor: visual
+
+---
+
+## Wprowadzenie 
+
+- Wizualizacja danych to nie tylko prezentowanie liczb i faktów — to **sztuka komunikacji wizualnej**.\
+- Aby przekaz był czytelny, intuicyjny i estetyczny, warto zrozumieć, **jak ludzki mózg postrzega obrazy**.
+
+- Psychologia Gestalt, rozwinięta na początku XX wieku przez niemieckich psychologów, bada **sposób, w jaki postrzegamy całość, a nie pojedyncze elementy**.\
+- Jej główne założenie brzmi:
+
+
+<center> „Całość jest czymś więcej niż sumą jej części.” </center>
+
+- W kontekście wizualizacji oznacza to, że odbiorca nie analizuje każdego punktu danych oddzielnie — lecz od razu dostrzega **wzory, grupy, relacje i hierarchię**.\
+- Zrozumienie zasad Gestalt pozwala projektować wykresy, infografiki i interfejsy w sposób, który **naturalnie prowadzi wzrok i wspiera interpretację danych**.
+
+
+![](obrazki/obraz1.png){fig-align="center"}
+
+
+
+##  Zasady Gestalt
+
+
+![](obrazki/obraz2.png){fig-align="center"}
+
+
+
+
+##  Zasada bliskości (proximity)
+![](obrazki/gestalt.png){fig-align="center"}
+
+<center>Elementy znajdujące się blisko siebie są postrzegane jako powiązane.</center>
+
+**Przykład:**\
+Na wykresie punkty danych położone blisko siebie wydają się należeć do tej samej grupy.\
+**W praktyce:** grupuj elementy wizualnie, zamiast stosować linie i ramki.
+
+## Zasada podobieństwa (similarity)
+![](obrazki/similarity.png){fig-align="center"}
+
+
+<center> Elementy podobne pod względem koloru, kształtu czy rozmiaru tworzą grupę.</center>
+
+**Przykład:**
+Na mapie wszystkie niebieskie punkty mogą oznaczać jeziora, a czerwone — miasta.\
+**W praktyce:** używaj spójnych kolorów i kształtów, aby ułatwić interpretację.
+
+------------------------------------------------------------------------
+
+## Zasada ciągłości (continuity)
+
+![](obrazki/continuity.png){fig-align="center"}
+
+
+ <center>Nasz wzrok podąża za liniami i krzywymi w sposób płynny — widzimy ciągłość, nie przerwy.</center>
+
+**Przykład:**\
+Na wykresie liniowym oko śledzi trend mimo drobnych przerw w danych.\
+**W praktyce:** prowadź wzrok odbiorcy wzdłuż osi, linii lub narracji wizualnej.
+
+## Zasada domknięcia (closure)
+![](obrazki/closure.jpeg){fig-align="center"}
+
+
+<center> Umysł „domyka” brakujące fragmenty, tworząc pełny obraz.</center>
+
+**Przykład:**\
+Trzy niepełne linie mogą być odczytane jako trójkąt.\
+**W praktyce:** możesz sugerować kształty bez ich pełnego rysowania — minimalizm działa.
+
+------------------------------------------------------------------------
+
+## Zasada figury i tła (figure-ground)
+![](obrazki/figure-ground.png){fig-align="center"}
+
+<center> Umysł oddziela obiekt (figurę) od tła.</center>
+
+**Przykład:**\
+Na slajdzie tekst o wysokim kontraście łatwo odróżniamy od tła.\
+**W praktyce:** stosuj kontrast i hierarchię, by wskazać, co jest najważniejsze.
+
+## Zasada wspólnego kierunku / wspólnego losu (common fate)
+![](obrazki/common-fate.png){fig-align="center"}
+
+
+<center>Elementy poruszające się w tym samym kierunku są postrzegane jako powiązane.</center>
+
+**Przykład:**\
+Na animacji strzałki poruszające się w jedną stronę są widziane jako grupa.\
+**W praktyce:** w wizualizacjach dynamicznych grupuj elementy przez ruch lub kierunek.
+
+------------------------------------------------------------------------
+
+## Zasada symetrii i porządku (symmetry & order)
+
+<center> Symetryczne, uporządkowane układy wydają się stabilne i harmonijne.</center>
+
+![](obrazki/symetria.png){fig-align="center"}
+
+**Przykład:**\
+Symetryczny układ wykresu jest łatwiejszy w odbiorze niż chaotyczny.\
+**W praktyce:** stosuj równowagę i osiową symetrię w kompozycji.
+
+## Podstawowe schematy percepcji wizualnej
+
+- Podstawowe schematy percepcji wizualnej, inaczej zmienne wizualne (ang. *visual variables* lub *preattentive attributes*) to cechy bodźców, które ludzki wzrok rozpoznaje automatycznie i błyskawicznie, zanim jeszcze zaczniemy świadomie analizować dane.
+
+![](obrazki/olowek.png){fig-align="center"}
+
+To bardzo ważny temat w wizualizacji danych, ponieważ od tych cech zależy, jak szybko i poprawnie odbiorca dostrzeże wzorce i różnice na wykresie.
+
+## Przetwarzanie informacji
+Według najnowszych badań neurokongniwistycznych nasz mózg przetwarza informacje podświadomie, jeszcze zanim dokona na ich podstawie sądu.
+
+![](obrazki/visual-analytics.png){fig-align="center"}
+<center> Żródło: https://help.tableau.com/current/blueprint/en-us/bp_why_visual_analytics.htm</center>
+
+## Położenie (Position)
+
+-   Najsilniejszy bodziec percepcyjny.
+
+-   Nasz mózg bardzo precyzyjnie rozróżnia pozycję punktów na osi X i Y.
+
+![](obrazki/polozenie.png){fig-align="center"}
+
+-   **Najlepsze do prezentowania wartości liczbowych** (np. wykresy punktowe, słupkowe).
+
+## Przykład
+Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich koloru.
+
+![](obrazki/kolumnowy.jpg ){fig-align="center"}
+
+<center> Żródło: https://excelbi.pl/wykres-kolumnowy-oraz-slupkowy-w-powerview/ </center>
+
+
+##  Długość (Length)
+
+-   Różnice w długości są łatwo zauważalne.
+
+-   Użyteczne przy porównywaniu wielkości — np. słupki, paski, linie.
+
+![](obrazki/slupkowy.png){fig-align="center"}
+
+<center> Żródło: https://www.statystyczny.pl/wykres-slupkowy/</center>
+
+**Przykład:** Wykres słupkowy — im dłuższy słupek, tym większa wartość.
+
+------------------------------------------------------------------------
+
+##  Kąt / nachylenie (Angle / Orientation)
+
+-   Odbiorca zauważa, gdy elementy mają różny kąt lub kierunek.
+
+-   Dobre do pokazania trendu lub kierunku zmiany.
+
+![](obrazki/liniowy.png){fig-align="center"}
+
+<center> Żródło: https://stat.gov.pl/portal-edukacyjny/info-dla-studentow/zakladka-1/#liniowe</center>
+
+**Przykład**: Wykres liniowy – wzrost lub spadek linii sygnalizuje zmianę trendu.
+
+##  Wielkość (Size / Area)
+
+-   Różnice w rozmiarze (np. kółek na wykresie bąbelkowym) są łatwe do zauważenia, ale mniej dokładne niż długość lub położenie.
+
+-   Mózg ma trudność z precyzyjnym porównywaniem powierzchni.
+
+![](obrazki/bubble.png){fig-align="center"}
+
+<center> Żródło: https://www.fast-report.com/public_download/docs/FRBusinessGraphics/online/en/ProgrammerManual/en-US/Charts/Bubble.html</center>
+
+**Przykład:** Na mapie bąbelkowej większe okręgi oznaczają większą liczbę, ale porównanie „na oko” bywa mylące.
+
+------------------------------------------------------------------------
+
+##  Kierunek / orientacja (Orientation)
+
+-   Ułatwia zauważenie różnic w układzie — np. pionowy vs. poziomy.
+
+-   Pomaga wyróżnić element lub grupę.
+
+![](obrazki/lolipop.png){fig-align="center"}
+
+<center> Żródło: https://alesandrab.wordpress.com/2014/10/15/how-to-create-a-double-lollipop-chart/</center>
+
+**Przykład:** Strzałki skierowane w inną stronę natychmiast przyciągają uwagę.
+
+## Kształt (Shape)
+
+-   Pomaga rozróżniać kategorie danych (np. trójkąty, koła, kwadraty).
+
+-   Mniej skuteczny przy dużej liczbie kategorii.
+
+![](obrazki/statstics.png){fig-align="center"}
+
+<center> Żródło: https://r-graph-gallery.com/274-map-a-variable-to-ggplot2-scatterplot.html</center>
+
+**Przykład:** Wykres punktowy z różnymi symbolami dla grup badawczych.
+
+------------------------------------------------------------------------
+
+##  Kolor (Hue) i Jasność (Lightness){.scrollable}
+
+-   Kolor służy do kodowania kategorii (różne barwy).
+
+-   Jasność lub nasycenie – do pokazania intensywności (np. mapa cieplna).
+![](https://media.datacamp.com/legacy/v1708087786/image2_19a10dee90.png)
+
+**Przykład:** Ciemniejsze kolory = wyższe wartości; różne barwy = różne grupy.
+
+## Tekstura i wzór (Texture / Pattern)
+
+-   Przydatne, gdy nie można użyć koloru (np. druk czarno-biały).
+
+-   Wspomaga rozróżnianie obszarów lub kategorii.
+
+![](https://assets.fixr.com/cost_guides/living-room-remodeling/living-room-remodeling-61027dfc1fb4f.png)
+
+
+# Wyższe schematy percepcji wizualnej
+
+## Lokalizacja przestrzenna i hierarchia (Spatial Organization / Hierarchy)
+
+-   Sposób ułożenia elementów sugeruje ich znaczenie, powiązania lub ważność.
+
+-   Wykorzystuje naturalne skojarzenia: góra–dół, centrum–peryferia, lewo–prawo.
+
+![](obrazki/hierarchia.png){fig-align="center"}
+
+<center> Żródło:  https://www.excel-exercice.com/pl/wykres-podzia%C5%82u/ </center>
+
+
+**Przykład:** W hierarchicznym diagramie element u góry oznacza nadrzędność (np. organizacja firmy).
+
+## Grupa / Klasteryzacja (Grouping / Clustering) {.scrollable}
+
+-   Pokazuje powiązania i podobieństwa między danymi.
+
+-   Opiera się na zasadach Gestalt: bliskości, podobieństwa, ciągłości.
+
+![](obrazki/klaster.png){fig-align="center"}
+
+<center> Żródło: https://mateuszgrzyb.pl/wybor-odpowiedniego-algorytmu-czesc-1-wprowadzenie/klasteryzacja/ </center>
+
+**Przykład:** Na wykresie punkty zbliżone do siebie tworzą wizualną grupę – sugerując wspólne cechy.
+
+
+
+
+
+## Połączenie / Relacja (Connection / Link)
+
+Linie lub strzałki pokazują zależności i przepływy między elementami.
+
+Ułatwiają rozumienie sieci, procesów, przyczyn i skutków.
+
+![](obrazki/arc-diagram.png){fig-align="center"}
+
+
+<center> Żródło: https://datavizproject.com/data-type/arc-diagram/</center>
+
+
+**Przykład:** Diagram przepływu lub graf sieciowy – linie między węzłami pokazują relacje.
+
+## Enkapsulacja / Zawieranie (Containment)
+
+-   Pokazuje, że pewne elementy należą do większej całości.
+
+-   Odpowiada strukturze „część–całość” (np. zestawy, grupy, regiony).
+
+![](obrazki/kartogram.png){fig-align="center"}
+
+
+**Przykład:** Na mapie obszar (województwo) obejmuje miasta – relacja przestrzenna i logiczna zarazem.
+
+
+
+## Porządek / Sekwencja (Ordering / Sequence)
+
+-   Pokazuje kolejność zdarzeń lub etapów procesu.
+
+-   Często wykorzystuje kierunek czytania (z lewej na prawą, z góry w dół).
+
+![](obrazki/inforgafika.png){fig-align="center"}
+
+<center> Źródło: https://afterweb.pl/infografika-jako-sposob-na-branding-w-nowoczesnym-wydaniu/</center>
+
+**Przykład:** Infografika procesowa – strzałki i etapy ilustrują przebieg czasu lub działań.
+
+## Ruch / Zmiana w czasie (Motion / Temporal Change)
+
+-   W animacjach lub interaktywnych wizualizacjach ruch może reprezentować trend, przepływ lub dynamikę.
+
+![](obrazki/animacja.gif){fig-align="center"}
+
+<center> Źródło: https://gganimate.com/</center>
+
+
+
+**Przykład:** Animowany wykres pokazujący zmiany danych w czasie.
+
+
+
+## Perspektywa / Skala (Perspective / Scale)
+
+Pokazuje relatywne znaczenie lub kontekst – jak dane wpisują się w większą całość.
+
+**Rodzaje skal:**
+
+![](obrazki/skale.png){fig-align="center"}
+
+
+## Narracja / Kontekst (Narrative / Context)
+
+-   Włącza element opowieści – pozwala odbiorcy zrozumieć sens danych poprzez kolejność, emocje i kontekst.
+
+-   To najwyższy poziom semantyczny — tworzy znaczenie, nie tylko strukturę.
+
+![](obrazki/narracja.png){fig-align="center"}
+
+**Przykład:** Storytelling w wizualizacji danych (np. interaktywny raport z danymi, w którym odbiorca odkrywa historię krok po kroku).
+
+## Cechy dobrej wizualizacji
+
+Dobra wizualizacja to wizualizacja która:
+
+-   Sprawia, że odbiorca potrzebuje mniej czasu na analizę zaprezentowanych danych.
+
+-   Jest czytelna na pierwszy rzut oka. Osoba, która nie miała wcześniej styczności z prezentowanymi danymi, może je bez trudu zrozumieć.
+
+-   Nie zakłamuje rzeczywistości poprzez niewłaściwe wyeksponowanie danych i wykorzystanie elementów graficznych.
+
+# Dobre praktyki tworzenia wizualizacji
+
+## Bądź uczciwy
+
+Kiedy wizualizujesz dane , przede wszystkim powinieneś być uczciwy wobec swoich odbiorców.
+
+Podczas tworzenia wizualizacji pamiętaj, aby :
+
+-   Porównywać te same elementy w tym samym zakresie
+
+-   Zachować odpowiednie proporcje ( zadbaj o to, aby żaden z elementów nie był dominujący , np. użycie wykresu 3D i wykorzystanie wyróżniającego koloru może sprawić, że wizualizacja będzie fałszowała dane; tak samo zmiana skali wykresu)
+
+## Dobierz odpowiedni wykres
+
+Każdy rodzaj wykresu służy do analizy innego rodzaju danych. Te, do których jest przeznaczony, będzie prezentował w przejrzysty sposób, natomiast resztę będzie prezentował w sposób nierzetelny, np. do prezentacji danych zmiennych w czasie, lepiej zastosować wykres liniowy niż kołowy, dla danych geograficznych najlepiej użyć mapy itd.
+
+------------------------------------------------------------------------
+
+## Wykorzystaj właściwe skale
+
+Znaczna większość wykresów składa się z jednej skali liczbowej i jednej kategorii wzdłuż osi.
+
+Zastosowanie właściwej skali pozwoli wydobyć najważniejsze informacje z danych. Na przykład w przypadku śledzenia danych na osi czasu wybierz skalę interwałową, której interwały będą stanowić kolejne miesiące roku. Pamiętaj także, że skale ilościowe powinnny się zaczynać od 0.
+
+## Zastosuj odpowiednie kolory
+
+-   Unikaj dużej ilości kolorów
+
+-   Nie stosuj zbyt kontrastowych barw
+
+-   Zwracaj uwagę na psychologiczne i kulturowe znaczenia kolorów
+
+-   Intensywniejszych kolorów używaj do podkreślanie istotnych zależności
+
+
+
+## Spraw, aby wizualizacja była czytelna
+
+-   Prostota wizualizacji poprawia czytelność - unikaj przeładowania danych w pojedynczej wizualizacji
+
+-   Stosuj wspólną paletę kolorów dla całej wizualizacji
+
+-   Do tekstów wykorzystuj proste czcionki (np. Arial, Tahoma)
+
+-   Zachowaj proporcję między wielkością wizualizacji i wielkością jej opisu
+
+
+# Najczęstsze błędy
+
+## Wykres 3D
+
+![](obrazki/3d.jpg)
+
+
+## Brak odwzorowania danych
+
+![](obrazki/brak odwzorowania.png)
+
+
+
+## Zbyt duże opisy i legenda
+
+![](obrazki/opisy.png)
+
+
+## Brak różnic
+
+![](obrazki/brak różnic.jpg)
+
+
+##  Zmiana skali
+
+![](obrazki/zmiana skali.png){width="1200" height="600"}
+
+# Przykłady dobrych wykresów
+
+## 
+
+![](obrazki/Dobry1.png)
+
+## 
+
+![](obrazki/Dobry2.png)
+
+## 
+![](obrazki/Dobry3.png)
+
+## 
+
+![](obrazki/Dobry4.png)
+
+
+# Przykłady złych wykresów
+## 
+
+![](obrazki/Zly1.png)
+
+## 
+![](obrazki/Zly2.png)
+## 
+
+![](obrazki/Zly3.png)
+## 
+
+![](obrazki/Zly4.png)
+
+## Dobre praktyki wizualizacji danych
+
+{{< video https://youtu.be/WyoYXvljxto?si=MVBp5fq2UObwhQT0 width="100%" height="85%">}}
+
+## Jak dobrać typ wykresu do danych
+
+{{< video https://youtu.be/EKsBn3zPxrs?si=dWvSiI1rXGeTVb_X width="100%" height="85%">}}
+
+## Dobór kolorów dla wykresu
+
+{{< video https://youtu.be/GyVMoejbGFg?si=OGkZaMnTkDRGqyMM width="100%" height="85%">}}
+
+## Ciekawe linki
+
+- [Język danych](https://jezykdanych.pl/manipulacje-w-wykresach-6-pulapek/)
+- [Danetyka](https://danetyka.com/wykresy-kolowe/)
+- [Najgorsze wykresy w 2024](https://www.projektpulsar.pl/struktura/2290727,1,pulsar-oglasza-najgorsze-wykresy-roku-2024.read)
+- [Jak kłamać wykresami](https://blogi.bossa.pl/2019/12/16/jak-klamac-wykresami/)
+- [Wykresy do kuchni](https://betaandbit.github.io/Wykresy/mutant.html)
+- [Najbardziej odradzany wykres](https://newdatalabs.com/pie-chart/)
+- [Artykuł na Research Gate](https://www.researchgate.net/publication/351010208_Wizualizowac_potrafi_kazdy_Czy_jednak_robi_to_poprawnie)
+- [Analityk płakał jak raportował - Facebook](https://www.facebook.com/analitykplakal/?locale=pl_PL)
