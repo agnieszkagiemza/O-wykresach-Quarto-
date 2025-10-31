@@ -3,37 +3,29 @@ title: "Sztuka tworzenia atrakcyjnych wizualizacji"
 format: revealjs
 fontsize: 20px
 editor: visual
-
 ---
 
-## Wprowadzenie 
+## Wprowadzenie
 
-- Wizualizacja danych to nie tylko prezentowanie liczb i faktów — to **sztuka komunikacji wizualnej**.\
-- Aby przekaz był czytelny, intuicyjny i estetyczny, warto zrozumieć, **jak ludzki mózg postrzega obrazy**.
+-   Wizualizacja danych to nie tylko prezentowanie liczb i faktów — to **sztuka komunikacji wizualnej**.\
 
-- Psychologia Gestalt, rozwinięta na początku XX wieku przez niemieckich psychologów, bada **sposób, w jaki postrzegamy całość, a nie pojedyncze elementy**.\
-- Jej główne założenie brzmi:
+-   Aby przekaz był czytelny, intuicyjny i estetyczny, warto zrozumieć, **jak ludzki mózg postrzega obrazy**.
 
+-   Psychologia Gestalt, rozwinięta na początku XX wieku przez niemieckich psychologów, bada **sposób, w jaki postrzegamy całość, a nie pojedyncze elementy**.\
 
-<center> „Całość jest czymś więcej niż sumą jej części.” </center>
+-   Jej główne założenie brzmi:
 
-- W kontekście wizualizacji oznacza to, że odbiorca nie analizuje każdego punktu danych oddzielnie — lecz od razu dostrzega **wzory, grupy, relacje i hierarchię**.\
-- Zrozumienie zasad Gestalt pozwala projektować wykresy, infografiki i interfejsy w sposób, który **naturalnie prowadzi wzrok i wspiera interpretację danych**.
+<center>„Całość jest czymś więcej niż sumą jej części.”</center>
 
+-   W kontekście wizualizacji oznacza to, że odbiorca nie analizuje każdego punktu danych oddzielnie — lecz od razu dostrzega **wzory, grupy, relacje i hierarchię**.\
+-   Zrozumienie zasad Gestalt pozwala projektować wykresy, infografiki i interfejsy w sposób, który **naturalnie prowadzi wzrok i wspiera interpretację danych**.
 
-![](obrazki/obraz1.png){fig-align="center"}
-
-
-
-##  Zasady Gestalt
-
+## Zasady Gestalt
 
 ![](obrazki/obraz2.png){fig-align="center"}
 
+## Zasada bliskości (proximity)
 
-
-
-##  Zasada bliskości (proximity)
 ![](obrazki/gestalt.png){fig-align="center"}
 
 <center>Elementy znajdujące się blisko siebie są postrzegane jako powiązane.</center>
@@ -43,13 +35,12 @@ Na wykresie punkty danych położone blisko siebie wydają się należeć do tej
 **W praktyce:** grupuj elementy wizualnie, zamiast stosować linie i ramki.
 
 ## Zasada podobieństwa (similarity)
+
 ![](obrazki/similarity.png){fig-align="center"}
 
+<center>Elementy podobne pod względem koloru, kształtu czy rozmiaru tworzą grupę.</center>
 
-<center> Elementy podobne pod względem koloru, kształtu czy rozmiaru tworzą grupę.</center>
-
-**Przykład:**
-Na mapie wszystkie niebieskie punkty mogą oznaczać jeziora, a czerwone — miasta.\
+**Przykład:** Na mapie wszystkie niebieskie punkty mogą oznaczać jeziora, a czerwone — miasta.\
 **W praktyce:** używaj spójnych kolorów i kształtów, aby ułatwić interpretację.
 
 ------------------------------------------------------------------------
@@ -58,18 +49,17 @@ Na mapie wszystkie niebieskie punkty mogą oznaczać jeziora, a czerwone — mia
 
 ![](obrazki/continuity.png){fig-align="center"}
 
-
- <center>Nasz wzrok podąża za liniami i krzywymi w sposób płynny — widzimy ciągłość, nie przerwy.</center>
+<center>Nasz wzrok podąża za liniami i krzywymi w sposób płynny — widzimy ciągłość, nie przerwy.</center>
 
 **Przykład:**\
 Na wykresie liniowym oko śledzi trend mimo drobnych przerw w danych.\
 **W praktyce:** prowadź wzrok odbiorcy wzdłuż osi, linii lub narracji wizualnej.
 
 ## Zasada domknięcia (closure)
+
 ![](obrazki/closure.jpeg){fig-align="center"}
 
-
-<center> Umysł „domyka” brakujące fragmenty, tworząc pełny obraz.</center>
+<center>Umysł „domyka” brakujące fragmenty, tworząc pełny obraz.</center>
 
 **Przykład:**\
 Trzy niepełne linie mogą być odczytane jako trójkąt.\
@@ -78,17 +68,18 @@ Trzy niepełne linie mogą być odczytane jako trójkąt.\
 ------------------------------------------------------------------------
 
 ## Zasada figury i tła (figure-ground)
+
 ![](obrazki/figure-ground.png){fig-align="center"}
 
-<center> Umysł oddziela obiekt (figurę) od tła.</center>
+<center>Umysł oddziela obiekt (figurę) od tła.</center>
 
 **Przykład:**\
 Na slajdzie tekst o wysokim kontraście łatwo odróżniamy od tła.\
 **W praktyce:** stosuj kontrast i hierarchię, by wskazać, co jest najważniejsze.
 
 ## Zasada wspólnego kierunku / wspólnego losu (common fate)
-![](obrazki/common-fate.png){fig-align="center"}
 
+![](obrazki/common-fate.png){fig-align="center"}
 
 <center>Elementy poruszające się w tym samym kierunku są postrzegane jako powiązane.</center>
 
@@ -100,7 +91,7 @@ Na animacji strzałki poruszające się w jedną stronę są widziane jako grupa
 
 ## Zasada symetrii i porządku (symmetry & order)
 
-<center> Symetryczne, uporządkowane układy wydają się stabilne i harmonijne.</center>
+<center>Symetryczne, uporządkowane układy wydają się stabilne i harmonijne.</center>
 
 ![](obrazki/symetria.png){fig-align="center"}
 
@@ -110,17 +101,19 @@ Symetryczny układ wykresu jest łatwiejszy w odbiorze niż chaotyczny.\
 
 ## Podstawowe schematy percepcji wizualnej
 
-- Podstawowe schematy percepcji wizualnej, inaczej zmienne wizualne (ang. *visual variables* lub *preattentive attributes*) to cechy bodźców, które ludzki wzrok rozpoznaje automatycznie i błyskawicznie, zanim jeszcze zaczniemy świadomie analizować dane.
+-   Podstawowe schematy percepcji wizualnej, inaczej zmienne wizualne (ang. *visual variables* lub *preattentive attributes*) to cechy bodźców, które ludzki wzrok rozpoznaje automatycznie i błyskawicznie, zanim jeszcze zaczniemy świadomie analizować dane.
 
 ![](obrazki/olowek.png){fig-align="center"}
 
 To bardzo ważny temat w wizualizacji danych, ponieważ od tych cech zależy, jak szybko i poprawnie odbiorca dostrzeże wzorce i różnice na wykresie.
 
 ## Przetwarzanie informacji
+
 Według najnowszych badań neurokongniwistycznych nasz mózg przetwarza informacje podświadomie, jeszcze zanim dokona na ich podstawie sądu.
 
 ![](obrazki/visual-analytics.png){fig-align="center"}
-<center> Żródło: https://help.tableau.com/current/blueprint/en-us/bp_why_visual_analytics.htm</center>
+
+<center>Żródło: https://help.tableau.com/current/blueprint/en-us/bp_why_visual_analytics.htm</center>
 
 ## Położenie (Position)
 
@@ -133,14 +126,14 @@ Według najnowszych badań neurokongniwistycznych nasz mózg przetwarza informac
 -   **Najlepsze do prezentowania wartości liczbowych** (np. wykresy punktowe, słupkowe).
 
 ## Przykład
+
 Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich koloru.
 
-![](obrazki/kolumnowy.jpg ){fig-align="center"}
+![](obrazki/kolumnowy.jpg){fig-align="center"}
 
-<center> Żródło: https://excelbi.pl/wykres-kolumnowy-oraz-slupkowy-w-powerview/ </center>
+<center>Żródło: https://excelbi.pl/wykres-kolumnowy-oraz-slupkowy-w-powerview/</center>
 
-
-##  Długość (Length)
+## Długość (Length)
 
 -   Różnice w długości są łatwo zauważalne.
 
@@ -148,13 +141,13 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/slupkowy.png){fig-align="center"}
 
-<center> Żródło: https://www.statystyczny.pl/wykres-slupkowy/</center>
+<center>Żródło: https://www.statystyczny.pl/wykres-slupkowy/</center>
 
 **Przykład:** Wykres słupkowy — im dłuższy słupek, tym większa wartość.
 
 ------------------------------------------------------------------------
 
-##  Kąt / nachylenie (Angle / Orientation)
+## Kąt / nachylenie (Angle / Orientation)
 
 -   Odbiorca zauważa, gdy elementy mają różny kąt lub kierunek.
 
@@ -162,11 +155,11 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/liniowy.png){fig-align="center"}
 
-<center> Żródło: https://stat.gov.pl/portal-edukacyjny/info-dla-studentow/zakladka-1/#liniowe</center>
+<center>Żródło: https://stat.gov.pl/portal-edukacyjny/info-dla-studentow/zakladka-1/#liniowe</center>
 
 **Przykład**: Wykres liniowy – wzrost lub spadek linii sygnalizuje zmianę trendu.
 
-##  Wielkość (Size / Area)
+## Wielkość (Size / Area)
 
 -   Różnice w rozmiarze (np. kółek na wykresie bąbelkowym) są łatwe do zauważenia, ale mniej dokładne niż długość lub położenie.
 
@@ -174,13 +167,13 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/bubble.png){fig-align="center"}
 
-<center> Żródło: https://www.fast-report.com/public_download/docs/FRBusinessGraphics/online/en/ProgrammerManual/en-US/Charts/Bubble.html</center>
+<center>Żródło: https://www.fast-report.com/public_download/docs/FRBusinessGraphics/online/en/ProgrammerManual/en-US/Charts/Bubble.html</center>
 
 **Przykład:** Na mapie bąbelkowej większe okręgi oznaczają większą liczbę, ale porównanie „na oko” bywa mylące.
 
 ------------------------------------------------------------------------
 
-##  Kierunek / orientacja (Orientation)
+## Kierunek / orientacja (Orientation)
 
 -   Ułatwia zauważenie różnic w układzie — np. pionowy vs. poziomy.
 
@@ -188,7 +181,7 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/lolipop.png){fig-align="center"}
 
-<center> Żródło: https://alesandrab.wordpress.com/2014/10/15/how-to-create-a-double-lollipop-chart/</center>
+<center>Żródło: https://alesandrab.wordpress.com/2014/10/15/how-to-create-a-double-lollipop-chart/</center>
 
 **Przykład:** Strzałki skierowane w inną stronę natychmiast przyciągają uwagę.
 
@@ -200,18 +193,17 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/statstics.png){fig-align="center"}
 
-<center> Żródło: https://r-graph-gallery.com/274-map-a-variable-to-ggplot2-scatterplot.html</center>
+<center>Żródło: https://r-graph-gallery.com/274-map-a-variable-to-ggplot2-scatterplot.html</center>
 
 **Przykład:** Wykres punktowy z różnymi symbolami dla grup badawczych.
 
 ------------------------------------------------------------------------
 
-##  Kolor (Hue) i Jasność (Lightness){.scrollable}
+## Kolor (Hue) i Jasność (Lightness) {.scrollable}
 
 -   Kolor służy do kodowania kategorii (różne barwy).
 
--   Jasność lub nasycenie – do pokazania intensywności (np. mapa cieplna).
-![](https://media.datacamp.com/legacy/v1708087786/image2_19a10dee90.png)
+-   Jasność lub nasycenie – do pokazania intensywności (np. mapa cieplna). ![](https://media.datacamp.com/legacy/v1708087786/image2_19a10dee90.png)
 
 **Przykład:** Ciemniejsze kolory = wyższe wartości; różne barwy = różne grupy.
 
@@ -223,7 +215,6 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](https://assets.fixr.com/cost_guides/living-room-remodeling/living-room-remodeling-61027dfc1fb4f.png)
 
-
 # Wyższe schematy percepcji wizualnej
 
 ## Lokalizacja przestrzenna i hierarchia (Spatial Organization / Hierarchy)
@@ -234,8 +225,7 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/hierarchia.png){fig-align="center"}
 
-<center> Żródło:  https://www.excel-exercice.com/pl/wykres-podzia%C5%82u/ </center>
-
+<center>Żródło: https://www.excel-exercice.com/pl/wykres-podzia%C5%82u/</center>
 
 **Przykład:** W hierarchicznym diagramie element u góry oznacza nadrzędność (np. organizacja firmy).
 
@@ -247,13 +237,9 @@ Odczytanie wysokości słupków na wykresie jest szybsze niż porównanie ich ko
 
 ![](obrazki/klaster.png){fig-align="center"}
 
-<center> Żródło: https://mateuszgrzyb.pl/wybor-odpowiedniego-algorytmu-czesc-1-wprowadzenie/klasteryzacja/ </center>
+<center>Żródło: https://mateuszgrzyb.pl/wybor-odpowiedniego-algorytmu-czesc-1-wprowadzenie/klasteryzacja/</center>
 
 **Przykład:** Na wykresie punkty zbliżone do siebie tworzą wizualną grupę – sugerując wspólne cechy.
-
-
-
-
 
 ## Połączenie / Relacja (Connection / Link)
 
@@ -263,9 +249,7 @@ Ułatwiają rozumienie sieci, procesów, przyczyn i skutków.
 
 ![](obrazki/arc-diagram.png){fig-align="center"}
 
-
-<center> Żródło: https://datavizproject.com/data-type/arc-diagram/</center>
-
+<center>Żródło: https://datavizproject.com/data-type/arc-diagram/</center>
 
 **Przykład:** Diagram przepływu lub graf sieciowy – linie między węzłami pokazują relacje.
 
@@ -277,10 +261,7 @@ Ułatwiają rozumienie sieci, procesów, przyczyn i skutków.
 
 ![](obrazki/kartogram.png){fig-align="center"}
 
-
 **Przykład:** Na mapie obszar (województwo) obejmuje miasta – relacja przestrzenna i logiczna zarazem.
-
-
 
 ## Porządek / Sekwencja (Ordering / Sequence)
 
@@ -290,7 +271,7 @@ Ułatwiają rozumienie sieci, procesów, przyczyn i skutków.
 
 ![](obrazki/inforgafika.png){fig-align="center"}
 
-<center> Źródło: https://afterweb.pl/infografika-jako-sposob-na-branding-w-nowoczesnym-wydaniu/</center>
+<center>Źródło: https://afterweb.pl/infografika-jako-sposob-na-branding-w-nowoczesnym-wydaniu/</center>
 
 **Przykład:** Infografika procesowa – strzałki i etapy ilustrują przebieg czasu lub działań.
 
@@ -300,13 +281,9 @@ Ułatwiają rozumienie sieci, procesów, przyczyn i skutków.
 
 ![](obrazki/animacja.gif){fig-align="center"}
 
-<center> Źródło: https://gganimate.com/</center>
-
-
+<center>Źródło: https://gganimate.com/</center>
 
 **Przykład:** Animowany wykres pokazujący zmiany danych w czasie.
-
-
 
 ## Perspektywa / Skala (Perspective / Scale)
 
@@ -315,7 +292,6 @@ Pokazuje relatywne znaczenie lub kontekst – jak dane wpisują się w większą
 **Rodzaje skal:**
 
 ![](obrazki/skale.png){fig-align="center"}
-
 
 ## Narracja / Kontekst (Narrative / Context)
 
@@ -371,8 +347,6 @@ Zastosowanie właściwej skali pozwoli wydobyć najważniejsze informacje z dany
 
 -   Intensywniejszych kolorów używaj do podkreślanie istotnych zależności
 
-
-
 ## Spraw, aby wizualizacja była czytelna
 
 -   Prostota wizualizacji poprawia czytelność - unikaj przeładowania danych w pojedynczej wizualizacji
@@ -383,33 +357,27 @@ Zastosowanie właściwej skali pozwoli wydobyć najważniejsze informacje z dany
 
 -   Zachowaj proporcję między wielkością wizualizacji i wielkością jej opisu
 
-
 # Najczęstsze błędy
 
 ## Wykres 3D
 
 ![](obrazki/3d.jpg)
 
-
 ## Brak odwzorowania danych
 
-![](obrazki/brak odwzorowania.png)
-
-
+![](obrazki/brak%20odwzorowania.png)
 
 ## Zbyt duże opisy i legenda
 
 ![](obrazki/opisy.png)
 
-
 ## Brak różnic
 
-![](obrazki/brak różnic.jpg)
+![](obrazki/brak%20różnic.jpg)
 
+## Zmiana skali
 
-##  Zmiana skali
-
-![](obrazki/zmiana skali.png){width="1200" height="600"}
+![](obrazki/zmiana%20skali.png){width="1200" height="600"}
 
 # Przykłady dobrych wykresów
 
@@ -422,24 +390,24 @@ Zastosowanie właściwej skali pozwoli wydobyć najważniejsze informacje z dany
 ![](obrazki/Dobry2.png)
 
 ## 
+
 ![](obrazki/Dobry3.png)
 
 ## 
 
 ![](obrazki/Dobry4.png)
 
-
 # Przykłady złych wykresów
+
 ## 
 
 ![](obrazki/Zly1.png)
 
 ## 
-![](obrazki/Zly2.png)
-## 
 
-![](obrazki/Zly3.png)
-## 
+![](obrazki/Zly2.png) \##
+
+![](obrazki/Zly3.png) \##
 
 ![](obrazki/Zly4.png)
 
@@ -457,11 +425,11 @@ Zastosowanie właściwej skali pozwoli wydobyć najważniejsze informacje z dany
 
 ## Ciekawe linki
 
-- [Język danych](https://jezykdanych.pl/manipulacje-w-wykresach-6-pulapek/)
-- [Danetyka](https://danetyka.com/wykresy-kolowe/)
-- [Najgorsze wykresy w 2024](https://www.projektpulsar.pl/struktura/2290727,1,pulsar-oglasza-najgorsze-wykresy-roku-2024.read)
-- [Jak kłamać wykresami](https://blogi.bossa.pl/2019/12/16/jak-klamac-wykresami/)
-- [Wykresy do kuchni](https://betaandbit.github.io/Wykresy/mutant.html)
-- [Najbardziej odradzany wykres](https://newdatalabs.com/pie-chart/)
-- [Artykuł na Research Gate](https://www.researchgate.net/publication/351010208_Wizualizowac_potrafi_kazdy_Czy_jednak_robi_to_poprawnie)
-- [Analityk płakał jak raportował - Facebook](https://www.facebook.com/analitykplakal/?locale=pl_PL)
+-   [Język danych](https://jezykdanych.pl/manipulacje-w-wykresach-6-pulapek/)
+-   [Danetyka](https://danetyka.com/wykresy-kolowe/)
+-   [Najgorsze wykresy w 2024](https://www.projektpulsar.pl/struktura/2290727,1,pulsar-oglasza-najgorsze-wykresy-roku-2024.read)
+-   [Jak kłamać wykresami](https://blogi.bossa.pl/2019/12/16/jak-klamac-wykresami/)
+-   [Wykresy do kuchni](https://betaandbit.github.io/Wykresy/mutant.html)
+-   [Najbardziej odradzany wykres](https://newdatalabs.com/pie-chart/)
+-   [Artykuł na Research Gate](https://www.researchgate.net/publication/351010208_Wizualizowac_potrafi_kazdy_Czy_jednak_robi_to_poprawnie)
+-   [Analityk płakał jak raportował - Facebook](https://www.facebook.com/analitykplakal/?locale=pl_PL)
